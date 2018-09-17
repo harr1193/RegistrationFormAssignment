@@ -1,0 +1,15 @@
+
+use registration_form;
+
+CREATE TABLE userInfo (
+	Id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	FirstName VARCHAR(30) NOT NULL,
+	LastName VARCHAR(30) NOT NULL,
+    Address1 VARCHAR(50) NOT NULL,
+    Address2 VARCHAR(50) NOT NULL,
+    City VARCHAR(50) NOT NULL,
+    StateLoc VARCHAR(30) NOT NULL,
+    Zip VARCHAR(30) NOT NULL,
+    Country VARCHAR(30) NOT NULL,
+	date TIMESTAMP
+);
